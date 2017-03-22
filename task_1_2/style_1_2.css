@@ -1,0 +1,256 @@
+
+body,p,h1{
+	margin: 0;
+	}
+h1{
+	font-size: 40px;
+	line-height: 50px;
+	text-align: left;
+	
+}
+
+body{
+	background-color: #eeeeee;
+}
+
+section{
+	margin: 30px 30px;
+	padding: 20px;
+	background-color: #fff;
+	border-top: 1px solid #e3e3e3;
+	border-left: 1px solid #e3e3e3;
+	border-right: 3px solid #5e5e5e;
+	border-bottom: 3px solid #5e5e5e;
+}
+
+.introduction{
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	}
+.logo{
+	font-size:35px;
+	color: white;
+	line-height: 50px;
+	margin: 10px;
+
+}
+ul.first{
+	float: right;
+	position: relative;
+	right: 24px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+}
+ul.first > li {
+	height: 58px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	border-bottom: 4px solid transparent;
+}
+
+.typical .one {
+
+	box-sizing: border-box;
+	width: 50%;
+	border: 10px solid #fff;
+}
+
+ul.first > li:hover{
+	background-color: #888;
+	border-bottom-color: #00a0e9;
+	padding: 0 3px;
+}
+ul.first > li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+.pics{
+	margin-left:60px;
+}
+.pic{
+	border: 1px solid #5e5e5e;
+	width: 300px;
+	height:300px;
+	text-align: center;
+
+	margin-bottom: 15px;
+}
+.pic p{
+	margin: 20px 0;
+	font-size: 20px;
+}
+.pic img{
+	vertical-align: middle;
+}
+
+ol.list{
+	width: 100%
+	height: 40px;
+	background-color: #eeeeee;
+	list-style: circle;
+	margin: 10px;
+	padding: 5px;
+	line-height: 20px;
+}
+ol.list > li{
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	margin-left: 30px;
+	border-bottom: 4px solid transparent
+}
+ol.list > li:hover{
+	background-color: white;
+	border-bottom-color: #00a0e9;
+	padding: 0 3px;
+}
+ol.list > li a{
+	color: #2d3e4f;
+	text-decoration: none;
+}
+table{
+	display: inline-table;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+thead{
+	display: table-header-group;
+	border-color: inherit;
+
+}
+
+#foods th{
+	border: 1px solid #ddd;
+	background-color: #2d3e4f;
+	color: #fff;
+	text-align: left;
+}
+
+#foods td{
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: 0.5em 10em 0.5em 0.5em;
+}
+
+#foods > tfoot{
+	background-color: lightgray;
+	font-weight: bold;
+}
+
+.form-style{
+	text-align: center;
+	width: 100%;
+}
+#side > h1 {
+	font-size: 20px;
+	border-left: 3px solid #000;
+	padding-left: 10px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.row{
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+}
+.row:before{
+	display: table;
+	content: "";
+}
+.row:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.name{
+	display: inline-block;
+	text-align: right;
+	float: left;
+	width: 40%;
+}
+.user{
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 60%;
+}
+
+.sex{
+	display: inline-block;
+	text-align: right;
+	float: left;
+	width: 40%;
+}
+.XY{
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 60%;
+}
+	
+.city{
+	display: inline-block;
+	text-align: right;
+	float: left;
+	width: 40%;
+}
+.Beijing{
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 60%;
+}
+.food{
+	display: inline-block;
+	text-align: right;
+	float: left;
+	width: 40%;
+}
+.eat{
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 60%;
+}
+
+.text{
+	display: inline-block;
+	text-align: right;
+	float: left;
+	width: 40%;
+}
+.input{
+	display: inline-block;
+	text-align: right;
+	float: left;
+	width: 60%;
+}
+.final{
+	padding: 8px 13px;
+	background-color: #00a0e9;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	width: 100%;
+}
+
+footer{
+	color: #fff;
+	text-align: center;
+	background-color: #333;
+	width: 100%;
+	height: 80px;
+}
